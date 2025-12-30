@@ -615,7 +615,7 @@ def print_help():
     
     # Payload Options
     print("Payload Options (optional):")
-    print('  -p, --payload [PAYLOAD]             payload string or file path (default: "test\r\n")')
+    print('  -p, --payload [PAYLOAD]             payload string or file path (default: "test\\r\\n")')
     print("  --payload-hex [HEX]                 binary payload in hex or hex file path")
     print()
     
