@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grabbr"
+version = "1.0.0"
+description = "Advanced banner grabbing utility for network ports"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Kraus17th"}
+]
+keywords = ["banner", "grabbing", "network", "pentesting", "security"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Information Technology",
+    "Topic :: Security",
+    "Topic :: System :: Networking",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+dependencies = [
+    "rich>=13.0.0",
+    "pysocks>=1.7.1",
+]
+
+[project.scripts]
+grabbr = "grabbr:main"
+
+[project.urls]
+Homepage = "https://github.com/Kraus17th/grabbr"
+Repository = "https://github.com/Kraus17th/grabbr"
+
