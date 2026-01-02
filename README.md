@@ -44,7 +44,7 @@ Other options:
   -v, --verbose                       enable verbose output with debug information
 ```
 
-## 🎯 Features
+## Features
 
 - **Multiple target sources**: Single target (`-t`), file with targets (`-f`), or Nmap XML import (`-n`)
 - **Proxy support**: SOCKS4, SOCKS5, and HTTP proxies (`-x`)
@@ -58,7 +58,7 @@ Other options:
 - **Partial results on Ctrl+C**: Saves what has already been collected when interrupted
 - **Structured output**: Clear per-target sections with status markers
 
-## 🚀 Installation
+## Installation
 
 ### Option 1: Install via pipx (recommended)
 
